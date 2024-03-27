@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  padding: 0px 100px;
+}
+
+header{ 
+  background-color:slateblue; 
+} 
+
+.logo{
+  width: 150px;
+  height: 150px;
+}
+/* Imagem da Logo do Cabeçalho */
+header img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 5px solid gold;
+}
+
+.titulo{
+    width: 2000px;
+    height: 150px;
+}  
+
+h1, h2{
+  font-family: 'Trebuchet MS';
+  color: gold;
+  text-align: center;
+}
+
+.menu {
+  justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+li{
+    float:left;
+}
+  li a {
+    display: block;
+    color: #000;
+    padding: 25px 16px;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Tahoma'; 
+}
+  
+  /* Alterar a cor do link ao passar o mouse */
+  li a:hover {
+    background-color:slateblue;
+    color:gold;
+  }
+
+  h3{ 
+    text-align:start;
+    font-family: 'Oswald Regular';
+    padding: 0px 100px;
+  }
+  section{
+    margin: 25px;
+ }
+  p{
+    font-size: larger;
+    font-family: 'Tahoma';
+    padding: 0px 100px;
+    text-align: justify;
+  }
+
+  footer{
+    background-color:slateblue;
+    font-family: 'Trebuchet MS';
+    justify-content: center;
+  }
+
+  form{
+    font-size: larger;
+    font-family: 'Tahoma';
+    padding: 0px 100px;
+  }
+
+  input{
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;    
+  }
+
+  textarea{
+    width: 100%;
+    font-size: medium;
+    font-family: 'Tahoma';
+    padding: 5px 0px;
+    margin: 10px 0px;
+  }
+/* Estilo do botão do formulário */
+  button{
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    font-family:'Tahoma';
+    margin: 10px 0px;
+  }
+/* Alterar a cor do botão ao passar o mouse */
+  button:hover{
+    background-color:slateblue;
+    color:gold;
+    border: none;
+  }
